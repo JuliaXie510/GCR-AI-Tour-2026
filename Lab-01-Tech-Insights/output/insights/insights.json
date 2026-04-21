@@ -3,286 +3,261 @@
   "insights": [
     {
       "hotspot_id": "H01",
-      "title": "AI 编码工具演进：GitHub Copilot CLI、Claude Code 与 IDE 的未来",
-      "what_changed": "GitHub Copilot CLI 推出多模型协作，Claude Code npm source map 意外曝光源码，IDE 未来讨论升温。",
-      "why_it_matters": "AI 编码工具演化为多智能体协作平台，IDE 将成为模型路由器。",
+      "title": "Apple CEO 交班：Tim Cook 卸任，John Ternus 接棒",
+      "what_changed": "Apple 正式宣布 Tim Cook 将卸任 CEO，由硬件产品负责人 John Ternus 接任。",
+      "why_it_matters": "这是 Apple 自乔布斯去世以来首次 CEO 更迭，Ternus 的接任意味着 Apple 可能在硬件+AI 深度融合上加速。",
       "who_is_impacted": [
-        "开发者",
-        "IDE 厂商",
-        "AI 编码工具初创公司",
-        "企业安全团队"
+        "Apple 股东与机构投资者",
+        "Apple 硬件/软件生态开发者",
+        "AI 芯片与端侧推理市场竞争者"
       ],
       "next_actions": [
-        "评估多模型特性适合团队工作流",
-        "审计 AI 工具 source map 泄露风险",
-        "关注 IDE 厂商应对策略"
+        "追踪 Ternus 首次公开战略表态",
+        "关注 WWDC 2026 是否有产品路线重大调整"
       ],
       "risk_notes": [
-        "Claude Code 源码曝光竞争情报风险",
-        "多模型集成增加供应链复杂度"
+        "Ternus 无大规模公司管理经验，过渡期可能有高管离职风险"
       ],
       "references": [
-        "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-combines-model-families-for-a-second-opinion/"
+        "https://techcrunch.com/",
+        "https://www.theverge.com/"
       ]
     },
     {
       "hotspot_id": "H02",
-      "title": "OpenAI 战略布局",
-      "what_changed": "AI 经济白皮书、Stargate 遭伊朗威胁、内部人士质疑 Altman、Safety Fellowship 启动。",
-      "why_it_matters": "OpenAI 转型政策倡导者，内外危机并存影响商业稳定性。",
+      "title": "Anthropic 获亚马逊 $5B 融资，Mythos 模型引安全争议",
+      "what_changed": "亚马逊向 Anthropic 追加 $5B 投资，同时 NSA 被报道使用 Anthropic Mythos 模型。",
+      "why_it_matters": "$5B 深度绑定 Anthropic 与 AWS；Mythos 军用引发 AI 安全合规连锁担忧。",
       "who_is_impacted": [
-        "政策制定者",
-        "企业 CTO",
-        "OpenAI 合作伙伴",
-        "中东数据中心运营商"
+        "企业 AI 采购决策者",
+        "OpenAI / Google 等竞争对手",
+        "AI 安全研究者"
       ],
       "next_actions": [
-        "关注 AI 经济政策白皮书",
-        "评估 Stargate 地缘政治风险",
-        "跟踪领导层信任危机"
+        "评估 AWS Bedrock + Claude Opus 4.7 对企业工作流的影响",
+        "跟踪 Mythos 军用 AI 后续监管动态"
       ],
       "risk_notes": [
-        "Stargate 风险影响服务可用性",
-        "领导力危机加速竞争对手崛起"
+        "军事 AI 部署可能触发国际 AI 治理框架讨论"
       ],
       "references": [
-        "https://openai.com/news/rss.xml"
+        "https://techcrunch.com/",
+        "https://arstechnica.com/"
       ]
     },
     {
       "hotspot_id": "H03",
-      "title": "Artemis II 月球飞越",
-      "what_changed": "人类最远载人飞行纪录，飞越月球远侧，NASA 验证深空系统可靠性。",
-      "why_it_matters": "重返月球计划关键里程碑，验证深空通信与生命支持系统。",
+      "title": "OpenAI Codex 向企业全面开放",
+      "what_changed": "OpenAI Codex 正式面向全球企业客户大规模扩展。",
+      "why_it_matters": "AI 辅助编程从个人工具上升到组织级，涉及数据安全和代码质量治理新挑战。",
       "who_is_impacted": [
-        "航天行业",
-        "卫星通信技术公司",
-        "国家航天机构"
+        "企业工程团队",
+        "GitHub Copilot 等竞品",
+        "代码安全合规团队"
       ],
       "next_actions": [
-        "关注 Artemis III 时间表",
-        "评估深空通信技术商业应用"
+        "对比 Codex 企业版与 Copilot Business 的功能差异",
+        "制定企业 AI 编程工具合规使用规范"
       ],
       "risk_notes": [
-        "月球远侧通信延迟问题尚未完全解决"
+        "AI 辅助编程引入的代码漏洞风险尚未完全评估"
       ],
       "references": [
-        "https://www.theverge.com/rss/index.xml"
+        "https://openai.com/news/"
       ]
     },
     {
       "hotspot_id": "H04",
-      "title": "AI 机器人技术突破",
-      "what_changed": "GEN-1 达到 99% 可靠性，NVIDIA Physical AI 进展，机器人割草机商业化，自动驾驶出租车监管焦点。",
-      "why_it_matters": "通用机器人从实验室走向商业部署临界点，消费级机器人市场爆发预兆。",
+      "title": "GitHub Copilot 个人版计划调整",
+      "what_changed": "GitHub 宣布 Copilot Individual 计划调整，同期发布 Git 2.54 新特性。",
+      "why_it_matters": "Copilot 个人版调整可能是 GitHub/Microsoft 在 AI 编程商业化路径上的主动重组。",
       "who_is_impacted": [
-        "制造业",
-        "消费电子厂商",
-        "自动驾驶公司",
-        "NVIDIA 生态合作伙伴"
+        "Copilot Individual 订阅用户",
+        "企业 IT 采购决策者",
+        "开源开发者社区"
       ],
       "next_actions": [
-        "评估 GEN-1 用于企业物流自动化",
-        "关注 NVIDIA Physical AI SDK",
-        "跟踪自动驾驶监管动态"
+        "确认调整的具体内容与定价",
+        "评估 Git 2.54 新特性对 CI/CD 流水线的影响"
       ],
       "risk_notes": [
-        "复杂环境可靠性可能下降",
-        "远程操作依赖度引发监管风险"
+        "价格上调可能导致个人开发者流失至开源 AI 编程工具"
       ],
       "references": [
-        "https://blogs.nvidia.com/feed/"
+        "https://github.blog/"
       ]
     },
     {
       "hotspot_id": "H05",
-      "title": "Anthropic 扩张",
-      "what_changed": "与 Google、Broadcom 扩大算力合作；Claude Code npm source map 暴露部分源代码。",
-      "why_it_matters": "Anthropic 垂直整合策略竞争 OpenAI，源码曝光揭示 AI 工具安全欠债。",
+      "title": "AI Agent 架构路线之争：Hermes vs OpenClaw",
+      "what_changed": "Hermes 与 OpenClaw 框架路线争论，Cloudflare Project Think 和 LinkedIn 认知记忆 Agent 同步亮相。",
+      "why_it_matters": "Cloudflare 以基础设施厂商身份进入 Agent Runtime 市场，改变原有框架主导生态格局。",
       "who_is_impacted": [
-        "Claude API 用户",
-        "竞争对手",
-        "企业安全团队",
-        "Broadcom 芯片业务"
+        "AI 应用开发者",
+        "Agent 框架厂商",
+        "企业安全团队"
       ],
       "next_actions": [
-        "追踪 Claude 模型发布时间表",
-        "审计 AI CLI npm 安全配置",
-        "评估 Google 绑定对 API 定价影响"
+        "评估 Cloudflare Project Think 对现有 Agent 部署的影响",
+        "建立 API 密钥最小权限管理规范"
       ],
       "risk_notes": [
-        "算力合作可能导致与 Google Cloud 深度绑定",
-        "源码泄露可能已被存档"
+        "多 Agent 系统中 API 密钥共享是严重安全风险"
       ],
       "references": [
-        "https://techcrunch.com/feed/"
+        "https://dev.to/",
+        "https://www.infoq.com/"
       ]
     },
     {
       "hotspot_id": "H06",
-      "title": "ChatGPT 第三方应用集成",
-      "what_changed": "ChatGPT 接入 DoorDash、Spotify、Uber，AI 助手具备真实世界操作能力。",
-      "why_it_matters": "AI 助手演变为生活操作系统，应用入口从 App Store 转向 AI 对话界面。",
+      "title": "AI 生成内容泛滥：Deezer 44% 新歌曲为 AI 创作",
+      "what_changed": "Deezer 披露 44% 日上传歌曲为 AI 生成，大量流媒体存在欺诈。",
+      "why_it_matters": "创意产业商业模式面临根本颠覆，版税分成制度将遭受系统性欺诈冲击。",
       "who_is_impacted": [
-        "移动应用开发者",
-        "消费互联网平台",
-        "企业 IT 采购",
-        "竞争对手"
+        "音乐版权持有者与独立艺术家",
+        "Spotify/Apple Music 等竞争对手",
+        "内容版权监管机构"
       ],
       "next_actions": [
-        "评估接入 ChatGPT Actions 生态",
-        "关注 Gemini/Apple Intelligence 类似进展",
-        "开发 ChatGPT 集成获取新用户"
+        "关注 Spotify 是否披露类似数据",
+        "评估 AI 内容检测技术成熟度"
       ],
       "risk_notes": [
-        "AI 助手中间化客户关系",
-        "数据通过 ChatGPT 中转隐私合规风险"
+        "版税欺诈规模化将严重损害真实艺术家收入"
       ],
       "references": [
-        "https://www.theverge.com/rss/index.xml"
+        "https://techcrunch.com/",
+        "https://arstechnica.com/"
       ]
     },
     {
       "hotspot_id": "H07",
-      "title": "AWS DevOps AI Agent & Security Agent 正式发布",
-      "what_changed": "DevOps Agent 与 Security Agent 正式 GA，自动化 CI/CD 诊断修复与安全事件响应。",
-      "why_it_matters": "AWS Agentic Cloud Operations 正式落地，降低运营成本，与 Azure/Google Cloud 竞争关键节点。",
+      "title": "AWS 本周更新：Amazon Bedrock 引入 Claude Opus 4.7",
+      "what_changed": "Amazon Bedrock 集成 Claude Opus 4.7，AWS Interconnect 进入 GA。",
+      "why_it_matters": "企业客户可在 Bedrock 统一调用 Anthropic 旗舰模型，降低多厂商集成成本。",
       "who_is_impacted": [
-        "AWS 企业用户",
-        "DevOps 工程师",
-        "云安全团队",
-        "竞争云厂商"
+        "AWS 企业客户",
+        "Azure OpenAI/Google Vertex AI 竞争者",
+        "AI 应用开发团队"
       ],
       "next_actions": [
-        "评估 DevOps Agent 替代现有 runbook",
-        "试点 Security Agent 安全扫描",
-        "对比 Azure Copilot for Security"
+        "测试 Claude Opus 4.7 在 Bedrock 的性能与成本",
+        "评估 AWS Interconnect 对混合云架构的优化"
       ],
       "risk_notes": [
-        "自动修复可能引入错误变更",
-        "安全 Agent 自动响应边界需明确"
+        "Anthropic 与 AWS 深度绑定后多云灵活性降低"
       ],
       "references": [
-        "https://aws.amazon.com/blogs/aws/feed/"
+        "https://aws.amazon.com/blogs/aws/"
       ]
     },
     {
       "hotspot_id": "H08",
-      "title": "供应链安全警报",
-      "what_changed": "朝鲜黑客长期潜伏劫持热门 npm 包；BrowserStack 本地代理泄露私钥及邮箱。",
-      "why_it_matters": "供应链攻击已是系统性威胁，开源安全护城河亟需加强，测试工具存在安全缺陷。",
+      "title": "Git 2.54 发布 + GitHub 基础设施扩展挑战",
+      "what_changed": "Git 2.54 发布，GitHub 公开承认近期宕机并指出架构扩展弱点。",
+      "why_it_matters": "GitHub 架构透明化罕见，但也证实平台可靠性短期风险，关键依赖需要灾备计划。",
       "who_is_impacted": [
-        "所有使用 npm 的开发者",
-        "使用 BrowserStack 的企业",
-        "开源维护者",
-        "企业安全团队"
+        "使用大型 Monorepo 的工程团队",
+        "GitHub Actions / CI/CD 重度用户"
       ],
       "next_actions": [
-        "审查 npm 依赖完整性验证",
-        "审计 BrowserStack 代理私钥权限",
-        "启用包锁定验证 checksum",
-        "部署持续供应链监控"
+        "升级本地 Git 至 2.54",
+        "为关键工作流建立 GitLab/Gitea 灾备方案"
       ],
       "risk_notes": [
-        "历史感染可能已存在",
-        "私钥未轮换将持续构成威胁"
+        "架构问题非短期可修复，中期可靠性仍有风险"
       ],
       "references": [
-        "https://www.wired.com/feed/rss"
+        "https://github.blog/",
+        "https://www.infoq.com/"
       ]
     },
     {
       "hotspot_id": "H09",
-      "title": "Cloudflare Organizations GA",
-      "what_changed": "Cloudflare 推出 Organizations 多账户统一管理功能，解决企业碎片化管理痛点。",
-      "why_it_matters": "Cloudflare 向企业市场深度渗透，具备与 AWS Organizations 竞争的多账户治理能力。",
+      "title": "人形机器人半程马拉松破纪录",
+      "what_changed": "中国制造的人形机器人在半程马拉松中完赛并超越多数人类参赛者。",
+      "why_it_matters": "验证了当前足式运动控制与能源续航的技术成熟度，具身智能接近实际部署临界点。",
       "who_is_impacted": [
-        "企业 IT/安全架构师",
-        "Cloudflare 大型客户",
-        "MSP 托管服务提供商"
+        "机器人产业投资者",
+        "工业自动化与物流企业",
+        "国防/安防领域采购决策者"
       ],
       "next_actions": [
-        "评估迁移至 Organizations 架构",
-        "关注与 Zero Trust/SASE 集成深度"
+        "追踪参赛机器人的技术规格与研发团队",
+        "评估中国机器人产业链的供应链优势"
       ],
       "risk_notes": [
-        "迁移需重新审视账户权限模型"
+        "商业化部署的可靠性仍需进一步验证"
       ],
       "references": [
-        "https://blog.cloudflare.com/rss/"
+        "https://www.wired.com/",
+        "https://arstechnica.com/"
       ]
     },
     {
       "hotspot_id": "H10",
-      "title": "AI 经济与就业",
-      "what_changed": "OpenAI 机器人税/公共财富基金框架；MIT Tech Review 职业 AI 关联数据研究；AI 重塑小型电商决策流程。",
-      "why_it_matters": "AI 劳动市场冲击从宏观进入微观现实，机器人税政策将进入立法议程。",
+      "title": "新模型发布：Qwen3.6-Max-Preview 与 Kimi K2.6",
+      "what_changed": "阿里 Qwen3.6-Max-Preview 和 Moonshot Kimi K2.6 同日发布。",
+      "why_it_matters": "中美 AI 能力差距持续缩小，全球 LLM 市场加速多极化。",
       "who_is_impacted": [
-        "电商从业者",
-        "劳工政策制定者",
-        "企业 CFO",
-        "普通工作者"
+        "AI 应用开发者",
+        "OpenAI/Anthropic 竞争态势",
+        "企业 AI 采购团队"
       ],
       "next_actions": [
-        "关注 G20/OECD AI 税收政策",
-        "制定团队 AI 再培训计划",
-        "跟踪政策白皮书落地进展"
+        "Benchmark 测试 Qwen3.6-Max-Preview 对比 GPT-4o",
+        "评估 Kimi K2.6 多语言/长上下文表现"
       ],
       "risk_notes": [
-        "机器人税增加 AI 密集型企业合规成本",
-        "过度依赖 AI 工具的脆弱性"
+        "中国模型在欧美市场面临数据主权审查障碍"
       ],
       "references": [
-        "https://techcrunch.com/feed/",
-        "https://www.technologyreview.com/feed/"
+        "https://news.ycombinator.com/",
+        "https://www.producthunt.com/"
       ]
     },
     {
       "hotspot_id": "H11",
-      "title": "量子计算时间线重估",
-      "what_changed": "密码学工程师质疑量子计算 10 年破解 RSA 的预测，NIST 后量子标准化进度落后。",
-      "why_it_matters": "密码基础设施迁移速度严重不足，实际时间窗口可能更短，PKI 迁移规划需加速。",
+      "title": "网络安全威胁加剧：朝鲜黑客 $290M 加密货币盗窃",
+      "what_changed": "朝鲜黑客盗取 $290M 加密货币，Mastodon 遭 DDoS，Cloudflare 发布新机器人检测策略。",
+      "why_it_matters": "国家级 Web3 攻击规模证明当前安全机制存在严重缺口，网络威胁升级。",
       "who_is_impacted": [
-        "企业 CISO",
-        "金融机构",
-        "政府/国防部门",
-        "密码学工具链维护者"
+        "加密货币交易所与 DeFi 协议",
+        "去中心化社交网络运营者",
+        "企业安全防御团队"
       ],
       "next_actions": [
-        "评估 PQC 迁移就绪度",
-        "跟踪 NIST FIPS 203/204/205 标准实施",
-        "制定 Crypto-Agility 路线图"
+        "审查加密资产多重签名策略",
+        "评估 DDoS 防护方案应对国家级攻击的能力"
       ],
       "risk_notes": [
-        "迁移窗口可能比预期更短",
-        "Harvest Now Decrypt Later 攻击已在进行"
+        "国家级黑客攻击频率和规模持续升级"
       ],
       "references": [
-        "https://feeds.arstechnica.com/arstechnica/index"
+        "https://techcrunch.com/",
+        "https://blog.cloudflare.com/"
       ]
     },
     {
       "hotspot_id": "H12",
-      "title": "Google 开源 Scion & 离线 AI 听写",
-      "what_changed": "Google 开源多智能体编排测试床 Scion；上线可离线工作的 AI 听写应用。",
-      "why_it_matters": "Scion 布局 MCP/Agent 框架竞争，与 Anthropic MCP、OpenAI Swarm 形成三足鼎立。离线 AI 预示端侧 AI 商业化加速。",
+      "title": "Google Gemini 扩展至 Chrome 7 个新国家",
+      "what_changed": "Gemini 集成进 Chrome 并扩展到 7 个新国家。",
+      "why_it_matters": "浏览器端 AI 是 Google 抵御 Microsoft Edge/Copilot 的关键战场，覆盖全球最大 Web 浏览器。",
       "who_is_impacted": [
-        "AI 平台工程师",
-        "移动应用开发者",
-        "隐私敏感行业",
-        "Google Cloud 竞争对手"
+        "Chrome 用户",
+        "Microsoft Edge+Copilot 团队",
+        "Perplexity 等 AI 搜索产品"
       ],
       "next_actions": [
-        "对比 Scion 与 LangGraph/CrewAI",
-        "测试端侧 AI 听写替代云端转录",
-        "关注 Scion 集成 Vertex AI 进展"
+        "测试 Gemini 在 Chrome 的实际能力与隐私处理",
+        "评估对企业 Chrome 部署的影响"
       ],
       "risk_notes": [
-        "实验性项目 API 稳定性存疑",
-        "端侧 AI 版本碎片化风险"
+        "浏览器级 AI 集成引发用户数据隐私担忧"
       ],
       "references": [
-        "https://news.ycombinator.com/rss"
+        "https://techcrunch.com/"
       ]
     }
   ]
